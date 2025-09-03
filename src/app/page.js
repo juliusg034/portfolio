@@ -148,11 +148,11 @@ export default function Home() {
       <section id="home" className={styles.hero}>
         <div className={styles.heroContent}>
           <h1 className={styles.heroTitle}>
-            Hi, I`&apos;`m <span className={styles.gradient}>Julius Gutierrez</span>
+            Hi, I&#39;m <span className={styles.gradient}>Julius Gutierrez</span>
           </h1>
           <p className={styles.heroSubtitle}>Computer Science Student</p>
           <p className={styles.heroDescription}>
-            I’m a computer science student exploring web development and software projects
+            I&#39;m a computer science student exploring web development and software projects
           </p>
           <div className={styles.heroButtons}>
             <button 
@@ -181,7 +181,7 @@ export default function Home() {
           <div className={styles.aboutContent}>
             <div className={styles.aboutText}>
               <p>
-                Hi! I`&apos;`m Julius Gutierrez, a computer science student with a passion for coding, technology, and problem-
+                Hi! I&apos;m Julius Gutierrez, a computer science student with a passion for coding, technology, and problem-
                 solving. I enjoy exploring Python and Java, experimenting with web development, and working on personal
                 projects like terminal tools and websites
               </p>
@@ -190,7 +190,7 @@ export default function Home() {
                 also love video games, which inspire me to think creatively and tackle challenges in new ways.
               </p>
               <p>
-                I`&apos;`m constantly learning and eager to take on new projects that push my skills further. My goal is to combine 
+                I&apos;m constantly learning and eager to take on new projects that push my skills further. My goal is to combine 
                 my curiosity and technical knowledge to create meaningful software and continue to grow as a developer.
               </p>
               
@@ -239,8 +239,8 @@ export default function Home() {
         <div className={styles.container}>
           <h2 className={styles.sectionTitle}>Get In Touch</h2>
           <p className={styles.contactDescription}>
-            I`&apos;`m always interested in new opportunities and interesting projects. 
-            Let`&apos;`s create something amazing together!
+            I&apos;m always interested in new opportunities and interesting projects. 
+            Let&apos;s create something amazing together!
           </p>
           
           <div className={styles.contactContent}>
@@ -305,7 +305,7 @@ export default function Home() {
 
               {submitStatus === 'success' && (
                 <div className={styles.successMessage}>
-                  ✅ Message sent successfully! I`&apos;`ll get back to you soon.
+                  ✅ Message sent successfully! I&apos;ll get back to you soon.
                 </div>
               )}
               {submitStatus === 'error' && (
