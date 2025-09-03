@@ -1,8 +1,8 @@
 import './globals.css'
 
 export const metadata = {
-  title: 'Your Name - Portfolio',
-  description: 'Full-stack developer portfolio showcasing modern web applications',
+  title: 'Julius Gutierrez - Portfolio',
+  description: 'Computer Science student looking for opportunities in Software Engineering',
 }
 
 export default function RootLayout({ children }) {
